@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Randomystick/carpark-API#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "start": "^5.1.0"
   }
 }

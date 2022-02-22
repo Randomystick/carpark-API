@@ -17,7 +17,7 @@
 
 const express = require('express'); //import express package
 const app = express()
-const PORT = 8080; //localhost
+const PORT = process.env.PORT || 8080; //localhost
 
 app.use(express.json()) //use express' json middleware to parse any request body into json so we can access req.body directly as json
 
